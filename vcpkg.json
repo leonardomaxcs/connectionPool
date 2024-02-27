@@ -1,0 +1,14 @@
+{
+  "name": "connectionpool",
+  "version": "1.0",
+  "dependencies": [
+    {
+      "name": "libssh",
+      "features": [ "openssl", "zlib" ]
+    },
+    {
+      "name": "libssh2",
+      "features": [ "openssl", "zlib" ]
+    }
+  ]
+}
